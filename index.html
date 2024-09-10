@@ -13,21 +13,19 @@
         <h1>Go Travel</h1>
       </div>
       <div>
-        <h2>Home</h2>
-        <h2>About us</h2>
-        <h2>Destination</h2>
-        <h2>Testimonials</h2>
-        <h2>Contact us</h2>
+        <h2><a href="#">Home</a></h2>
+        <h2><a href="#about-us">About us</a></h2>
+        <h2><a href="#destination">Destination</a></h2>
+        <h2><a href="#testimonial">Testimonials</a></h2>
+        <h2><a href="#contact-us">Contact us</a></h2>
       </div>
       <div><button>SignUp</button><button>Login</button></div>
     </nav>
 
-    <br />
-
     <!-- Carousel -->
     <main>
       <div>
-        <button>Left</button>
+        <button>&larr;</button>
       </div>
       <div>
         <h2>Experience The Travel Luxury</h2>
@@ -35,16 +33,14 @@
         <button>Explore Now</button>
       </div>
       <div>
-        <button>Right</button>
+        <button>&rarr;</button>
       </div>
     </main>
 
-    <br />
-
     <!-- About us -->
-    <section>
+    <section id="about-us">
       <div>
-        <h2>About us</h2>
+        <h2 class="section-heading">About us</h2>
         <h3>
           Our Journey is Started With a Determination To Travel All Around This
           World
@@ -57,22 +53,20 @@
         </p>
       </div>
       <div>
-        <img src="./images/abt-us.jpg" alt="" width="50" height="50" />
+        <img src="./images/abt-us.jpg" alt="about-us-banner" />
       </div>
     </section>
 
-    <br />
-
     <!-- Destination -->
 
-    <section>
+    <section id="destination">
       <div>
-        <h2>Destination</h2>
+        <h2 class="section-heading">Destination</h2>
         <h3>Explore The Breath-Taking Adventures With Us</h3>
       </div>
       <div>
         <div>
-          <img src="./images/des-1.jpg" alt="" width="50" height="50" />
+          <img src="./images/des-1.jpg" alt="des-1-banner" />
           <h4>Get Into Wild In Indonesia</h4>
           <div>
             <p>3 Days 4 Nights</p>
@@ -80,7 +74,7 @@
           </div>
         </div>
         <div>
-          <img src="./images/des-2.jpg" alt="" width="50" height="50" />
+          <img src="./images/des-2.jpg" alt="des-2-banner" />
           <h4>Get Into Wild In Indonesia</h4>
           <div>
             <p>3 Days 4 Nights</p>
@@ -88,7 +82,7 @@
           </div>
         </div>
         <div>
-          <img src="./images/des-3.jpg" alt="" width="50" height="50" />
+          <img src="./images/des-3.jpg" alt="des-3-banner" />
           <h4>Get Into Wild In Indonesia</h4>
           <div>
             <p>3 Days 4 Nights</p>
@@ -96,7 +90,7 @@
           </div>
         </div>
         <div>
-          <img src="./images/des-4.jpg" alt="" width="50" height="50" />
+          <img src="./images/des-4.jpg" alt="des-4-banner" />
           <h4>Get Into Wild In Indonesia</h4>
           <div>
             <p>3 Days 4 Nights</p>
@@ -106,11 +100,9 @@
       </div>
     </section>
 
-    <br />
-
     <!-- Testimonials -->
 
-    <section>
+    <section id="testimonial">
       <div>
         <div><button>Left</button></div>
         <div>
@@ -131,17 +123,16 @@
 
     <!-- // id for unique identification -->
 
-    <section>
+    <section id="contact-us">
       <h3>Subscribe To Our News-Letter</h3>
       <form>
         <label for="email-address">Email address</label>
         <input type="email" id="email-address" />
 
-        <label for="id-password">Password</label>
-        <input type="password" id="id-password" />
-
-        <input type="checkbox" id="agree" />
-        <label for="agree">Agree All the Terms & Services</label>
+        <span>
+          <input type="checkbox" id="agree" />
+          <label for="agree">Agree All the Terms & Services</label>
+        </span>
 
         <input type="submit" value="Subscribe" />
       </form>
